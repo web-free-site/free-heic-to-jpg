@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/prerender.mjs && node scripts/generate-sitemap.mjs && node scripts/inject-more-tools.mjs",
+    "build": "tsc -b && vite build && node scripts/prerender.mjs && node scripts/generate-sitemap.mjs && node scripts/inject-more-tools.mjs && node scripts/inject-hub-legal.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },
