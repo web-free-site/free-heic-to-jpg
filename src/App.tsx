@@ -222,7 +222,7 @@ export function App() {
 
   const renderRoute = () => {
     if (normalizedPath === '/') {
-      return <HomePage {...converterProps} defaultFormat="JPG" />;
+      return <HomePage {...converterProps} />;
     }
     if (normalizedPath === '/heic-to-png') {
       return (
