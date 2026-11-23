@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://free-heic-to-jpg.web-free.site/sitemap.xml
